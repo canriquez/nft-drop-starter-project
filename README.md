@@ -1,15 +1,15 @@
-# buildspace Web3 app on Solana with React and Rust
+# buildspace Web3 app on Solana with React and Metaplex
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6baa8b22-8acd-4dad-9ad5-df15975e5a24/deploy-status)](https://app.netlify.com/sites/anriquez-gif-mind-reader/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/04a105cb-eb92-4cf3-91b3-11cb12457327/deploy-status)](https://app.netlify.com/sites/anriquez-nft-drop/deploys)
 
 
-![screenshot](./src/assets/solana-mind-reader.png)
+![screenshot](./app/src/assets/solana-metaplex.png)
 
-This is a very nice and cool async, weeklong project for curious devs that want to hack around with Solana. You'll pick up some Rust, write + deploy a Solana program, and connect it all back to a React web3 app that anyone with a Solana wallet will be able to interact with!
+Ship your own custom NFT collection on Solana w/ Metaplex
 
 > Powered by _buildspace
-> [project link](https://zip.sc/WMngw)
+> [Ship your own custom NFT collection on Solana w/ Metaplex in a weekend](https://zip.sc/GTE5v)
 
 ## Built With
 - Metaplex
@@ -17,11 +17,9 @@ This is a very nice and cool async, weeklong project for curious devs that want 
 - HTML5/CSS3, Javascript ES6
 - VSCode
 
-## Features
-- [anchor_lang](https://github.com/project-serum/anchor) - Ethereum development environment for professionals
 ## Live Demo @Netlify
 
-[Live Demo Link](https://anriquez-gif-mind-reader.netlify.app/)
+[Live Demo Link](https://anriquez-nft-drop.netlify.app/)
 
 
 ## Getting Started
@@ -66,6 +64,17 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### Environment Variables
+
+Follow the project along and create a ```.env``` file in the ```/app``` folder. Include the following keys. The values will be provided/generated during the project
+
+```
+REACT_APP_CANDY_MACHINE_CONFIG= ```<as per project>```
+REACT_APP_CANDY_MACHINE_ID=```<as per project>```
+REACT_APP_TREASURY_ADDRESS=```<as per project>```
+REACT_APP_SOLANA_NETWORK=devnet
+REACT_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
+```
 
 ## Authors
 
